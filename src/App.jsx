@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import { Parallax } from 'react-parallax'
 
 import Hero from './components/Hero'
 import Services from './components/Services'
@@ -23,12 +22,10 @@ export default function App() {
       </nav>
 
       <main className="pt-16">
-        <section id="hero">
-          <Parallax bgImage="/images/hero.jpg" strength={400}>
-            <div style={{ height: '80vh' }}>
-              <Hero />
-            </div>
-          </Parallax>
+        <section id="hero" className="bg-hero bg-cover bg-center" style={{ height: '80vh' }}>
+          <div className="h-full bg-black/40 flex items-center justify-center">
+            <Hero />
+          </div>
         </section>
 
         <section id="services" className="py-20 bg-white">
