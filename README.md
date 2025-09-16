@@ -1,3 +1,34 @@
+# RAF Productions - Portofolio (Scaffold)
+
+Proyek ini adalah scaffold untuk web portofolio satu halaman (one-page) untuk perusahaan kontraktor booth event.
+
+Teknologi:
+- React + Vite
+- Tailwind CSS
+- react-parallax untuk efek parallax
+- react-scroll untuk navigasi one-page
+
+Quick start:
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run dev server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Ganti gambar placeholder di `public/images` atau di folder `images`.
 ## Hi there 👋
 
 <!--
